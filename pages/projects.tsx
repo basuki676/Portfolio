@@ -7,7 +7,7 @@ const ProjectsPage = () => {
     <div className={styles.layout}>
       <h1 className={styles.pageTitle}>My Projects</h1>
       <p className={styles.pageSubtitle}>
-        Here's a glimpse into what I've been building—every project taught me something new and pushed my skills further.
+        Here&apos;s a glimpse into what I&apos;ve been building—every project taught me something new and pushed my skills further.
       </p>
 
       <div className={styles.container}>
