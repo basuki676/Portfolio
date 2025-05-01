@@ -21,7 +21,7 @@ export const projects: Project[] = [
   {
     title: 'E-commerce App',
     description: 'This web was created to facilitate the buying and selling of food, helping small businesses to market and receive orders.',
-    image: '/images/Ecommerce.png',
+    image: '/images/Ecomerce.png',
     slug: 'ecommerce-app',
   },
 ];
