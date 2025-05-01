@@ -1,0 +1,54 @@
+.layout {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.container {
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tepat 3 kolom */
+  gap: 1.5rem;
+  max-width: 100%;
+  padding: 0 1.5rem; /* Padding kiri-kanan agar tidak menempel ke tepi */
+  box-sizing: border-box;
+}
+
+
+
+.pageTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+  letter-spacing: -0.03em;
+  text-align: center; /* Pusatkan teks */
+  padding-top: 50px;
+}
+
+.pageSubtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 3rem;
+  max-width: 600px;
+  line-height: 1.6;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem 1.5rem; /* Tambahkan padding samping & bawah */
+}
+
+
+@media screen and (max-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
